@@ -1,4 +1,4 @@
-export AVA_LABS_DIR=$GO/src/github.com/ava-labs
+export AVA_LABS_DIR=$GOPATH/src/github.com/ava-labs
 
 alias cdava='cd $AVA_LABS_DIR'
 alias cdag='cd $AVA_LABS_DIR/avalanchego'
