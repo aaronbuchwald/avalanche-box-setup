@@ -1,0 +1,6 @@
+export AVA_LABS_DIR=$GO/src/github.com/ava-labs
+
+alias cdava='cd $AVA_LABS_DIR'
+alias cdag='cd $AVA_LABS_DIR/avalanchego'
+alias cdcoreth='cd $AVA_LABS_DIR/coreth'
+alias cdavash='cd $AVA_LABS_DIR/avash'
