@@ -16,4 +16,4 @@ echo "Copying S3 Backup from URI: $LATEST_DB_BACKUP_URI"
 aws s3 cp $LATEST_DB_BACKUP_URI $DB_BACKUP_TAR_NAME
 
 echo "Attempting to tar the package"
-tar -xvf $DB_BACKUP_TAR_NAME
+tar -xf $DB_BACKUP_TAR_NAME
