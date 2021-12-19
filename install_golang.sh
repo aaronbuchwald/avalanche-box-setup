@@ -12,6 +12,7 @@ source /home/ubuntu/.profile
 # Install GVM
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 source /home/ubuntu/.gvm/scripts/gvm
+echo "source /home/ubuntu/.gvm/scripts/gvm" >> /home/ubuntu/.profile
 
 # Install and select go1.17.1
 gvm install go1.17.1
