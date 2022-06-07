@@ -13,6 +13,3 @@ git -C $AVA_LABS_PATH/avalanchego remote add internal git@github.com:ava-labs/av
 echo "Installing Coreth"
 git -C $AVA_LABS_PATH clone git@github.com:ava-labs/coreth.git
 git -C $AVA_LABS_PATH/coreth remote add internal git@github.com:ava-labs/coreth-internal.git
-
-echo "Installing Avash"
-git -C $AVA_LABS_PATH clone git@github.com:ava-labs/avash.git
