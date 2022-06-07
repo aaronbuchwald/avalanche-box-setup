@@ -14,7 +14,7 @@ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/bins
 source /home/ubuntu/.gvm/scripts/gvm
 echo "source /home/ubuntu/.gvm/scripts/gvm" >> /home/ubuntu/.profile
 
-# Install and select go1.17.1
-gvm install go1.17.1
-echo "gvm use go1.17.1 > /dev/null && export GOPATH=$DESIRED_GO_PATH" >> /home/ubuntu/.profile
+# Install and select go1.17.9
+gvm install go1.17.9
+echo "gvm use go1.17.9 > /dev/null && export GOPATH=$DESIRED_GO_PATH" >> /home/ubuntu/.profile
 source /home/ubuntu/.profile
